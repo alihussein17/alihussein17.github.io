@@ -1,0 +1,88 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7f4e4; /* Light green background */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2a6f36; /* Dark green header */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #34a853; /* Green nav bar */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #2a6f36; /* Dark green title color */
+}
+
+.blog-post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.newsletter-signup {
+    background-color: #34a853;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.newsletter-signup input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.newsletter-signup button {
+    padding: 10px 20px;
+    background-color: #2a6f36;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2a6f36;
+    color: white;
+    margin-top: 20px;
+}
